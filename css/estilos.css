@@ -1,0 +1,326 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=News+Cycle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Montserrat:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bgnav {
+  background-color: black;
+}
+
+.btn-secondary {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+span {
+  color: goldenrod;
+}
+
+.navbar-brand::before {
+  content: "⚜️";
+}
+
+p::first-letter {
+  color: goldenrod;
+}
+
+.jumbotron {
+  background-image: url(../images/frank-septillion-Qrspubmx6kE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron h1 {
+  color: goldenrod;
+  margin: 7px;
+  padding: 7px;
+}
+
+.jumbotron p {
+  display: block;
+  color: white;
+  text-align: left;
+  margin: 10px;
+}
+
+.noso {
+  font-family: "News Cycle", sans-serif;
+  color: white;
+  background: black;
+}
+
+.jumbotron .btn-secondary {
+  color: white;
+  margin: 15px;
+  padding: 10px;
+}
+
+.jumbotron .btn-secondary :hover {
+  background-color: goldenrod;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.row .btn-secondary {
+  margin: 10px;
+  padding: 6px;
+}
+
+section .noticias h1 {
+  text-align: left;
+}
+
+h2 {
+  background-image: linear-gradient(to right, #070706, #363415, #6c601a, #ae8d1a, #fcba1b);
+  text-transform: capitalize;
+  font-family: "News Cycle", sans-serif;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+h3 {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card img {
+  width: 300px;
+  height: 450px;
+}
+
+.card-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-transform: capitalize;
+}
+
+.card-text {
+  color: black;
+  font-family: "News Cycle", sans-serif;
+  text-transform: capitalize;
+}
+
+section {
+  color: white;
+}
+
+section .al {
+  background-image: url(../images/NLEFT.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+section .ar h3 {
+  text-align: center;
+  color: #040404;
+}
+
+section .ar p {
+  color: black;
+}
+
+section .ar p::-moz-selection {
+  color: black;
+  background-color: darkgoldenrod;
+}
+
+section .ar p::selection {
+  color: black;
+  background-color: darkgoldenrod;
+}
+
+.noticias {
+  background-image: linear-gradient(to bottom, #0c0b09, #433917, #7c6b1d, #b9a21d, #f8dd11);
+  background-size: cover;
+}
+
+.noticias h1 {
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.noticias h3 {
+  color: white;
+  text-align: left;
+  font-family: "News Cycle", sans-serif;
+}
+
+.noticias .precios {
+  text-align: center;
+  font-family: "News Cycle", sans-serif;
+  margin: 0;
+}
+
+.noticias p {
+  text-align: left;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+
+.noticias ul li {
+  text-align: center;
+  margin: 0;
+}
+
+.slide {
+  margin-top: 0;
+  background-image: linear-gradient(to bottom, #0c0b09, #433917, #7c6b1d, #b9a21d, #f8dd11);
+}
+.slide img {
+  height: 450px;
+  width: 1350px;
+  background-size: cover;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  margin: 6px;
+}
+
+.btn-primary :hover {
+  background-color: darkgoldenrod;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+h1 {
+  float: left;
+  color: rgba(255, 174, 0, 0.936);
+  font-size: 39px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.conta {
+  background-image: url(../images/fondo1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 40px;
+}
+
+.contenedor .form .form-header .form-title {
+  font-weight: normal;
+  font-family: "News Cycle", sans-serif;
+  color: goldenrod;
+  padding: 14px;
+}
+
+.contenedor .form .form-header .form-title span {
+  color: #fff;
+  text-align: center;
+}
+
+.contenedor .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 0;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.contenedor .form-label {
+  margin: 0;
+  display: block;
+}
+
+.contenedor .form .form-label {
+  color: goldenrod;
+  font-size: 16px;
+  font-family: roboto;
+  position: relative;
+}
+
+.contenedor .form .form-imput, .form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid goldenrod;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #fff;
+  font-family: roboto;
+}
+
+.contenedor .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.contenedor .form .btn-submit {
+  width: 100%;
+  font-family: roboto;
+  background: goldenrod;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.contenedor .form .btn-submit {
+  border-radius: 3px;
+}
+
+.contenedor .form .btn-submit:hover {
+  background: rgb(248, 183, 19);
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: large;
+  text-transform: capitalize;
+  padding: 18px;
+}
+
+.redes i {
+  color: darkgoldenrod;
+  font-size: 28px;
+  letter-spacing: 15px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
+
+/*# sourceMappingURL=estilos.css.map */
